@@ -1,4 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.product{
+    width: 300px;
+    height: 508px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(160, 159, 159);
+    border-radius: 10px;
+}
 .product img{
-    width: 280px;
-    height: 280px;
+    width: 286px;
+    height: 290px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.product-details{
+    margin: 7px;
+}
+.name-price p{
+    font-size: 20px;
+}
+.brand-rating{
+    margin-top: 30px;
 }

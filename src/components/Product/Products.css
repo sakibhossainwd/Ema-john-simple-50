@@ -4,7 +4,8 @@
 }
 .product{
     width: 300px;
-    height: 508px;
+    height: auto
+    pm ;
     margin-bottom: 30px;
     border: 1px solid rgb(160, 159, 159);
     border-radius: 10px;
@@ -23,4 +24,11 @@
 }
 .brand-rating{
     margin-top: 30px;
+}
+.add-to-cart{
+    background-color: rgb(252, 211, 130);
+    padding: 5px;
+    text-align: center;
+    margin-top: 0%;
+    border-radius: 0px 0px 10px 10px;
 }

@@ -4,11 +4,11 @@
 }
 .product{
     width: 300px;
-    height: auto
-    pm ;
+    height: 508px;
     margin-bottom: 30px;
     border: 1px solid rgb(160, 159, 159);
     border-radius: 10px;
+    position: relative;
 }
 .product img{
     width: 286px;
@@ -23,12 +23,22 @@
     font-size: 20px;
 }
 .brand-rating{
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .add-to-cart{
+    width: 100%;
     background-color: rgb(252, 211, 130);
+    color: black;
+    font-weight: 600;
     padding: 5px;
     text-align: center;
-    margin-top: 0%;
     border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0%;
+    text-decoration: none;
+    border: none;
+}
+.add-to-cart:hover{
+    background-color: rgb(231, 157, 9);
+    transition: .3s;
 }

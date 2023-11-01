@@ -1,0 +1,28 @@
+.cart{
+    background-color: #ffc773;
+    height: 500px;
+    padding: 0 50px;
+}
+.cart p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.heading{
+    padding: 50px 0;
+    text-align: center;
+}
+.cartBtns{
+    text-align: center;
+    margin-top: 50px;
+}
+.clear-btn button{
+    width: 200px;
+    background-color: #FF3030;
+    color: white;
+}
+.review-btn button{
+    margin-top: 20px;
+    width: 200px;
+    background-color: #FF9900;
+    color: white;
+}

@@ -2,6 +2,8 @@
     background-color: #ffc773;
     height: 500px;
     padding: 0 50px;
+    position: sticky;
+    top: 0;
 }
 .cart p{
     font-size: 20px;

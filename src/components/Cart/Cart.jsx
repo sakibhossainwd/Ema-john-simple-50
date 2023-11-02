@@ -13,11 +13,18 @@ const Cart = ({cart}) => {
     // 2nd way
     // const {cart} = props;
     
-    console.log(cart)
+    // console.log(cart)
     let total = 0;
+    let shipping = 0;
+
     for (const product of cart){
        total = total + product.price;
+       shipping = shipping + product.shipping;
     }
+    const tax = total*7/100
+    
+    const grandTotal = total + shipping + tax;
+    
 
     return (
         <div className='cart'>
@@ -25,10 +32,10 @@ const Cart = ({cart}) => {
                  <h2>Order Summary</h2>
              </div>
             <p>Product items: {cart.length}</p>
-            <p>Total Price: $ {total}</p>
-            <p>Toal Shiping Charge: $5</p>
-            <p>Tax: $</p>
-            <h4>Grand Total: $</h4>
+            <p>Total Price: $ {total.toFixed(2)}</p>
+            <p>Toal Shiping Charge: ${shipping.toFixed(2)}</p>
+            <p>Tax: ${tax.toFixed(2)}</p>
+            <h4>Grand Total: ${grandTotal.toFixed(2)}</h4>
             <div className="cartBtns">
                 <div className="clear-btn">
                     <button>

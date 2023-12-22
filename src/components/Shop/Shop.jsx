@@ -7,6 +7,7 @@ import Cart from '../Cart/Cart';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
+    // console.log(products)
 
     const [cart, setCart] = useState([]);
 
@@ -46,7 +47,7 @@ const Shop = () => {
     return (
         <div className='Shop-Container'>
             <div className="products-container">
-                {
+                {   
                     products.map(product => <Products
                     key={product.id}
                     product={product}
